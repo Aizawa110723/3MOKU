@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.item {
+    background: olive;
+    color: white;
+    padding: 50px;
+}
